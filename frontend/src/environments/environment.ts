@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+logo: "../assets/img/starwars.png",
+urlDptoSIC: "https://git.institutomilitar.com/",
+host: "http://swapi.dev/api/",
+itemsPorPagina: 10
 };
 
 /*
