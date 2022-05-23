@@ -22,7 +22,7 @@ getPersonajes(): Observable<any> {
 
 extraerPersonajes(respuestaApi: any): Personaje[] {
   const personajes: Personaje[] = [];
-  respuestaApi.results.forEach(p => {
+  respuestaApi.results.forEach((p: any) => {
     personajes.push(this.mapearPersonaje(p));
   });
   return personajes;
